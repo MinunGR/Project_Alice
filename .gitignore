@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# discord 
+Project_Alice/node_modules
+Project_Alice/.env
+Project_Alice/config.json

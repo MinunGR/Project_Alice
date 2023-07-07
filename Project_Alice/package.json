@@ -1,0 +1,32 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Alice discord bot",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "discord.js": "^14.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0"
+  },
+  "scripts": {
+    "test": "\\commands\\test\\index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinunGR/Project_Alice.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "js",
+    "node"
+  ],
+  "author": "MinunGr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinunGR/Project_Alice/issues"
+  },
+  "homepage": "https://github.com/MinunGR/Project_Alice#readme"
+}
