@@ -132,4 +132,6 @@ dist
 # discord 
 Project_Alice/node_modules
 Project_Alice/.env
-Project_Alice/config.json
+Project_Alice/config.json 
+
+# El env y el configu json si debian venir :C

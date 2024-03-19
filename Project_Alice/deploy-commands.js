@@ -40,7 +40,12 @@ const rest = new REST().setToken(token);
 		);
 
 		console.log(`Successfully reloaded ${data.length} application (/) commands.`);
-	} catch (error) {
+
+		// Listar los comandos registrados en el array
+		commands.forEach(function (elemento, indice, array) {
+  			console.log(elemento, indice);
+		});
+	} catch (error){
 		// And of course, make sure you catch and log any errors!
 		console.error(error);
 	}
